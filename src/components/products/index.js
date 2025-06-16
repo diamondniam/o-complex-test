@@ -42,7 +42,7 @@ export default function Products() {
             ))
           : null}
 
-        {(products.isLoading || products.error.is) &&
+        {(!products.data.length || products.isLoading || products.error.is) &&
           Array.from({ length: 20 }).map((_, index) => (
             <CardSkeleton key={`card-skeleton-${index}`} />
           ))}
