@@ -16,7 +16,7 @@ export default function Header() {
             alt="logo"
             width={110}
             height={110}
-            className="absolute -top-1/2 right-1/2 -translate-y-6 translate-x-1/2 max-md:hidden"
+            className="absolute -top-1/2 right-1/2 -translate-y-6 translate-x-1/2 max-md:hidden dark:invert-0 invert"
           />
         </Link>
       </p>
