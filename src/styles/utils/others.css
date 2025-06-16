@@ -1,0 +1,19 @@
+.smallScrollbar {
+  &::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--gray);
+    border-radius: 5px;
+  }
+}
+
+.defaultTextStyles {
+  /* Headings */
+  h1 { @apply text-xl font-medium; }
+
+  /* Paragraph */
+  p { @apply my-1; }
+}
